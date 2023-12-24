@@ -27,7 +27,7 @@ server.listen(8080, ()=>{
 })
 
 
-const MONGO_URL = 'mongodb+srv://xnpltn:G4u5PmhvY3odyISQ@learning.ytapkih.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URL = '';
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
 mongoose.connection.on('error', (error: Error) => console.log(error));
